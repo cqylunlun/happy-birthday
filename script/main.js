@@ -1,15 +1,15 @@
 // Click MP3 play
-document.addEventListener('click', function() {
+/* document.addEventListener('click', function() {
     document.getElementById('audios').play()
-})
+}) */
 
 document.addEventListener('touchstart', function() {
     document.getElementById('audios').play()
 })
 
-document.addEventListener('WeixinJSBridgeReady', function() {
+/*document.addEventListener('WeixinJSBridgeReady', function() {
     document.getElementById('audios').play()
-})
+})*/
 
 // Import the data to customize and insert them into page
 const fetchData = () => {
