@@ -1,3 +1,8 @@
+// Click MP3 play
+document.addEventListener('click', function() {
+    document.getElementById('audios').play()
+})
+
 // Import the data to customize and insert them into page
 const fetchData = () => {
   fetch("customize.json")
