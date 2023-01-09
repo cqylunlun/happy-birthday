@@ -1,13 +1,5 @@
 // Click MP3 play
-/* document.addEventListener('click', function() {
-    document.getElementById('audios').play()
-}) 
-
-document.addEventListener('touchstart', function() {
-    document.getElementById('audios').play()
-}) */
-
-document.addEventListener('WeixinJSBridgeReady', function() {
+document.addEventListener('click', function() {
     document.getElementById('audios').play()
 })
 
