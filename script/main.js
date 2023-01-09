@@ -3,6 +3,14 @@ document.addEventListener('click', function() {
     document.getElementById('audios').play()
 })
 
+document.addEventListener('touchstart', function() {
+    document.getElementById('audios').play()
+})
+
+document.addEventListener('WeixinJSBridgeReady', function() {
+    document.getElementById('audios').play()
+})
+
 // Import the data to customize and insert them into page
 const fetchData = () => {
   fetch("customize.json")
